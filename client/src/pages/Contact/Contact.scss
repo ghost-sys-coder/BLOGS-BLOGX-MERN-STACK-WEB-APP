@@ -1,0 +1,66 @@
+
+section.contact {
+    
+    .content {
+        margin-top: 10rem;
+        padding: 2rem;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--footer-color);
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+
+        address {
+            text-align: center;
+            font-size: 1.5rem;
+            color: var(--footer-color);
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+
+        .form--container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+
+
+            input {
+                display: block;
+                width: 100%;
+                height: 50px;
+                margin-bottom: 1rem;
+                border: 2px solid var(--footer-color);
+                border-radius: 5px;
+                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+                font-size: 1.5rem;
+                padding-left: 2rem;
+                text-transform: none;
+
+                &::placeholder{
+                    text-transform: capitalize;
+                }
+            }
+
+            textarea {
+                width: 100%;
+                padding: 1rem;
+                border: 2px solid var(--footer-color);
+                border-radius: 10px;
+            }
+
+            button {
+                color: var(--white-color);
+                background-color: var(--footer-color);
+                padding: 1.5rem 3rem;
+                text-transform: capitalize;
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+}

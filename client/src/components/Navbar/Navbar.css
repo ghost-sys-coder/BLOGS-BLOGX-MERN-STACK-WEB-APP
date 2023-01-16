@@ -1,0 +1,98 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 10%;
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  z-index: 2000;
+  background-color: var(--footer-color);
+}
+.navigation .logo {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.navigation .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.navigation .navbar a {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.navigation .navbar a:hover {
+  color: var(--main-color);
+  transform: translateX(5px);
+  text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  .navigation .navbar {
+    display: none;
+  }
+}
+.navigation .toggle {
+  display: none;
+}
+.navigation .toggle svg {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--white-color);
+}
+@media screen and (max-width: 768px) {
+  .navigation .toggle {
+    display: block;
+  }
+}
+.navigation .mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 2000;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navigation .mobile-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #C4C9E5;
+    padding: 5rem;
+  }
+  .navigation .mobile-nav .mobile-nav-close {
+    align-self: flex-end;
+    background-color: var(--white-color);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .navigation .mobile-nav .mobile-nav-close svg {
+    font-size: 3rem;
+  }
+  .navigation .mobile-nav .mobile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .navigation .mobile-nav .mobile-links .link {
+    width: 100%;
+  }
+  .navigation .mobile-nav .mobile-links a {
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

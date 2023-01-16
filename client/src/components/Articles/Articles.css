@@ -1,0 +1,57 @@
+.container {
+  margin-block: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.container .item-card .image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.container .item-card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.container .item-card .content {
+  padding: 2rem;
+}
+.container .item-card .content a {
+  display: block;
+  color: var(--black-color);
+}
+.container .item-card .content a h1 {
+  padding-block: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.container .item-card .content a p.description {
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-bottom: 1px solid silver;
+  padding-bottom: 2rem;
+}
+.container .item-card .content a:hover {
+  color: teal;
+}
+.container .item-card .content .reviews {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.container .item-card .content .reviews p span {
+  font-size: 1.2rem;
+}
+.container .item-card .content .reviews p svg {
+  font-size: 1.5rem;
+  color: red;
+}
+.container .item-card .content .reviews p.votes {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=Articles.css.map */

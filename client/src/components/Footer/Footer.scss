@@ -1,0 +1,94 @@
+.footer {
+    min-height: 400px;
+    background-color: #434A75;
+
+    .top {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 4rem;
+
+        .container {
+            display: flex;
+            gap: 2rem;
+            flex-direction: column;
+
+            .title {
+                color: var(--white-color);
+                font-size: 2rem;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+
+            .desc {
+                color: var(--white-color);
+                font-size: 1.5rem;
+            }
+
+            .social-links {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                justify-content: space-between;
+                align-items: flex-start;
+                text-transform: capitalize;
+
+                a {
+                    color: var(--white-color);
+                    font-size: 1.5rem;
+                }
+            }
+           .subscribe-text {
+                color: var(--white-color);
+                font-size: 1.5rem;
+           } 
+
+           form {
+                width: 100%;
+
+                input {
+                    width: 100%;
+                    height: 50px;
+                    border: 1px solid silver;
+                    padding-left: 2rem;
+                    background-color: transparent;
+                    text-transform: none;
+
+                    &::placeholder {
+                        color: var(--white-color);
+                        font-weight: 700;
+                    }
+                }
+
+                button {
+                    display: block;
+                    margin-top: 1rem;
+                    width: 100%;
+                    padding: 1rem 2rem;
+                    color: var(--white-color);
+                    background-color: var(--light-dark);
+                    cursor: pointer;
+                }
+           }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        a {
+            color: var(--white-color);
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: var(--white-color);
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+    }
+}

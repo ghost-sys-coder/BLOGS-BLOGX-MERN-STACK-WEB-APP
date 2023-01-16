@@ -1,0 +1,60 @@
+section.contact .content {
+  margin-top: 10rem;
+  padding: 2rem;
+}
+section.contact .content h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--footer-color);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+section.contact .content address {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--footer-color);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+section.contact .content .form--container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+section.contact .content .form--container input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 1rem;
+  border: 2px solid var(--footer-color);
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: none;
+}
+section.contact .content .form--container input::-moz-placeholder {
+  text-transform: capitalize;
+}
+section.contact .content .form--container input:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+section.contact .content .form--container input::placeholder {
+  text-transform: capitalize;
+}
+section.contact .content .form--container textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--footer-color);
+  border-radius: 10px;
+}
+section.contact .content .form--container button {
+  color: var(--white-color);
+  background-color: var(--footer-color);
+  padding: 1.5rem 3rem;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}/*# sourceMappingURL=Contact.css.map */

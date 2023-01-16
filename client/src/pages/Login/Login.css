@@ -1,0 +1,60 @@
+section.login .navigation {
+  background-color: var(--footer-color);
+  color: var(--white-color);
+}
+section.login .container {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 2rem;
+}
+section.login .container .heading {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--footer-color);
+  text-align: center;
+}
+section.login .container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+section.login .container .form input {
+  height: 50px;
+  width: 100%;
+  display: block;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding-left: 2rem;
+  text-transform: none;
+  font-size: 1.5rem;
+}
+section.login .container .form input:focus {
+  border: 2px solid var(--footer-color);
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+section.login .container .form button {
+  background-color: var(--footer-color);
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+section.login .container .form button:hover {
+  background-color: var(--black-color);
+}/*# sourceMappingURL=Login.css.map */

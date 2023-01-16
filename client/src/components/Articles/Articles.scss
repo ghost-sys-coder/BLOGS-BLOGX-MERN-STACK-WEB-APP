@@ -1,0 +1,69 @@
+.container {
+    margin-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+
+    .item-card {
+        .image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .content {
+            padding: 2rem;
+
+            a {
+                display: block;
+                color: var(--black-color);
+
+                h1 {
+                    padding-block: 1rem;
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+    
+                p.description {
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    border-bottom: 1px solid silver;
+                    padding-bottom: 2rem;
+                }
+
+                &:hover {
+                    color: teal;
+                }
+            }
+
+            .reviews {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+
+                p {
+                    span {
+                        font-size: 1.2rem;
+                    }
+
+                    svg {
+                        font-size: 1.5rem;
+                        color: red;
+                    }
+                }
+
+                p.votes {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}

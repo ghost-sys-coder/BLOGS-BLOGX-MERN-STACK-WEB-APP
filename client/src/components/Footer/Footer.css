@@ -1,0 +1,89 @@
+.footer {
+  min-height: 400px;
+  background-color: #434A75;
+}
+.footer .top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 4rem;
+}
+.footer .top .container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.footer .top .container .title {
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.footer .top .container .desc {
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+.footer .top .container .social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-transform: capitalize;
+}
+.footer .top .container .social-links a {
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+.footer .top .container .subscribe-text {
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+.footer .top .container form {
+  width: 100%;
+}
+.footer .top .container form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid silver;
+  padding-left: 2rem;
+  background-color: transparent;
+  text-transform: none;
+}
+.footer .top .container form input::-moz-placeholder {
+  color: var(--white-color);
+  font-weight: 700;
+}
+.footer .top .container form input:-ms-input-placeholder {
+  color: var(--white-color);
+  font-weight: 700;
+}
+.footer .top .container form input::placeholder {
+  color: var(--white-color);
+  font-weight: 700;
+}
+.footer .top .container form button {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  color: var(--white-color);
+  background-color: var(--light-dark);
+  cursor: pointer;
+}
+.footer .bottom {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .bottom a {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.footer .bottom p {
+  color: var(--white-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+}/*# sourceMappingURL=Footer.css.map */

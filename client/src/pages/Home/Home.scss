@@ -1,0 +1,46 @@
+.header {
+   min-height: 100vh;
+   width: 100vw; 
+   
+   background-image: url("../../assets/header-image.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   section {
+        position: relative;
+        height: 100vh;
+        background-color: var(--light-dark);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .content {
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            h3 {
+                text-transform: uppercase;
+                color: var(--white-color);
+                font-size: 2rem;
+                font-weight: 400;
+            }
+
+            h1 {
+                font-size: 6rem;
+                font-weight: 500;
+                color: var(--white-color);
+
+                @media screen and (max-width: 500px) {
+                    font-size: 4rem;
+                }
+            }
+        }
+   }
+}
